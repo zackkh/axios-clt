@@ -32,6 +32,8 @@ yarn add axios-clt
 ```
 
 ```javascript
+import { AxiosClient } from "axios-clt";
+
 const client = new AxiosClient({
     config: {
         baseURL: "<https://api.example.com>",
